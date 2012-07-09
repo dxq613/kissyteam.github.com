@@ -14,7 +14,6 @@ Class
 Configs
 ------------------------------------------------
     * :data:`~Column.config.dataIndex`
-    * :data:`~Column.config.hide`
     * :data:`~Column.config.id`
     * :data:`~Column.config.renderer`
     * :data:`~Column.config.resizable`
@@ -22,11 +21,6 @@ Configs
     * :data:`~Column.config.sortState`
     * :data:`~Column.config.title`
 
-Methods
------------------------------------------------    
-
-    * :meth:`~Column.prototype.show`
-    * :meth:`~Column.prototype.hide`
 
 Events
 --------------------------------------------------------
@@ -58,11 +52,7 @@ Configs Detail
 ------------------------------------------------------
 .. data:: Column.config.dataIndex
     
-    {String} - 列对应的数据里的字段名，如： {a : '124'}中的‘a'
-
-.. data:: Column.config.hide
-    
-    {Boolean} - 默认：false，隐藏列      
+    {String} - 列对应的数据里的字段名，如： {a : '124'}中的‘a'  
 
 .. data:: Column.config.id
 
@@ -103,19 +93,6 @@ Configs Detail
 
     {String} - 默认：&#160，列标题，可以使用html 
     
-
-Methods Detail
------------------------------------------------  
-
-.. method:: Column.prototype.show
-
-    | **show()**
-    | 显示列
-
-.. method:: Column.prototype.hide
-
-    | **hide()**
-    | 隐藏列
 
 Events Detail
 ------------------------------------------------------

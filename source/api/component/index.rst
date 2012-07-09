@@ -1,4 +1,4 @@
-﻿.. _component:
+.. _component:
 
 
 Component

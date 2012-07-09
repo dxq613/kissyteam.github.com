@@ -16,7 +16,7 @@ KISSY.use('grid',function(S,Grid){
 				id : 'colhide',
 				title : '隐藏',
 				dataIndex : 'd',
-				hide : true
+				sortable:false
 		}];
 	(function(){
 		var data = [{a:'123'},{a:'cdd',b:'edd'},{a:'1333',c:'eee',d:2}],

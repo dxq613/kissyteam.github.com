@@ -126,7 +126,7 @@ Methods Detail
     | **setSelection(records)**
     | 选中行
 
-    :param Object|Array records 选中行的记录信息，可以是一条记录，可以是多条记录。数据通过store获取，参看 :class:`Grid.Store <grid.Store>`
+    :param Object|Array records: 选中行的记录信息，可以是一条记录，可以是多条记录。数据通过store获取，参看 :class:`Grid.Store <grid.Store>`
 
     .. code-block:: javascript
 
@@ -155,7 +155,7 @@ Methods Detail
     | **showData(records)**
     | 显示数据
 
-    :param Array records 要显示的数据，此方法不推荐使用。显示数据最好通过store来实现。
+    :param Array records: 要显示的数据，此方法不推荐使用。显示数据最好通过store来实现。
 
     .. code-block:: javascript
 
@@ -170,7 +170,7 @@ Methods Detail
         grid.render();
         store.setResult(data);
 
-        /**显示本地数据*/
+        /**加载后台数据*/
         var store = new Store({url : 'data.json',autoLoad : true}),//store 会自动在指定的url下加载数据，在表格渲染时显示数据。
             grid = new Grid(
             {
